@@ -19,3 +19,6 @@ for (let i = 1; i < bicilette.length; i++) {
 }
 console.log(leggera);
 
+// destructuring
+const { nome, peso } = leggera;
+console.log(`La bici più leggera è ${nome} e pesa ${peso}.`);
